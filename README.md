@@ -2,16 +2,18 @@
 
 **Note: this is just a reference implementation and is not intended for production use.**
 
-## About example: Django persistence
+## Example Scenario: Django persistence using Tahoe LAFS
 
-If you fit either of these descriptions, this example is for you: 
+If you fit either of these descriptions, this example app is for you: 
+
     - the dev who wants to write an app using Tahoe for persistence.
     - the dev who wants to see how an existing app uses Tahoe for persistence.
 
 ## About the client, a Django app
 
 Implementation of real-world application: https://github.com/gothinkster/realworld/ using Django and HTMX.
-The app is based on the gothinkster/realworld example contributed by https://github.com/danjac/realworld/
+The app is based on the gothinkster/realworld app contributed by [Dan Jacobs](https://github.com/danjac/realworld/) 
+because of the focus on Python.
 An in-depth discussion of this implementation can be found [here](https://danjacob.net/posts/anatomyofdjangohtmxproject/).
 
 Tech Stack:
@@ -38,7 +40,7 @@ pip install -r requirements.txt
 
 ## Integrate with Tahoe LAFS
 
-### Use realworld scenarios:
+### Excercises with realworld scenarios:
 
 - Install tahoe LAFS to use the public Test Grid
 - Extend the Django App to store account profiles on Tahoe LAFS
