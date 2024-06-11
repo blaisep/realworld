@@ -5,8 +5,8 @@
 ## About example: Django persistence
 
 If you fit either of these descriptions, this example is for you: 
-    A) the dev who wants to write an app using Tahoe for persistence.
-    B) the dev who wants to see how an existing app uses Tahoe for persistence.
+    - the dev who wants to write an app using Tahoe for persistence.
+    - the dev who wants to see how an existing app uses Tahoe for persistence.
 
 ## About the client, a Django app
 
@@ -34,5 +34,23 @@ pip install -r requirements.txt
 ./manage.py migrate && ./manage.py runserver
 ```
 
-## About the persistence
+---
+
+## Integrate with Tahoe LAFS
+
+### Use realworld scenarios:
+
+- Install tahoe LAFS to use the public Test Grid
+- Extend the Django App to store account profiles on Tahoe LAFS
+- Extend the Django App to store articles on Tahoe LAFS
+- Extend the Django App to store login information on Tahoe LAFS
+
+### Install and run Tahoe LAFS
+
+Use the package from PyPi
+```
+pip install tahoe-lafs
+tahoe --version
+```
+Configure the public test grid
 
